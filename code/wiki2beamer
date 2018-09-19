@@ -456,7 +456,7 @@ def transform(string, state):
     string = transform_italicfont(string)
     string = transform_typewriterfont(string)
     string = transform_alerts(string)
-    string = transform_colors(string)
+    #string = transform_colors(string)
     string = transform_footnotes(string)
     string = transform_graphics(string)
     string = transform_substitutions(string)
